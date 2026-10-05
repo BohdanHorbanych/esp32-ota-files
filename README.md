@@ -27,3 +27,19 @@ https://raw.githubusercontent.com/BohdanHorbanych/esp32-ota-files/main/firmware/
 https://raw.githubusercontent.com/BohdanHorbanych/esp32-ota-files/main/firmware/v<версія>/station_WiFi.bin
 https://raw.githubusercontent.com/BohdanHorbanych/esp32-ota-files/main/firmware/broken/station_WiFi.bin
 ```
+
+---
+
+# fw7: SENTRY SWM-2 (фінальна прошивка курсу)
+
+- `fw7/stable.txt` - `2.1.0`, `ota update`
+- `fw7/beta.txt` - `2.3.0`, `ota update beta`
+- `fw7/v2.1.0/sentry_fw7.bin`, `fw7/v2.3.0/sentry_fw7.bin` - app-образи для OTA
+- `fw7/broken/sentry_fw7.bin` - навмисно зламана прошивка для перевірки rollback (`ota broken`)
+
+```
+https://raw.githubusercontent.com/BohdanHorbanych/esp32-ota-files/main/fw7/stable.txt
+https://raw.githubusercontent.com/BohdanHorbanych/esp32-ota-files/main/fw7/v<версія>/sentry_fw7.bin
+```
+
+Стартова версія 2.1.0 (merged bin) шиється через esptool, далі пристрій оновлюється сам.
